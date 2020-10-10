@@ -1,0 +1,98 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #404042;
+	font-size: 18px;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+img {
+	width: 200px;
+}
+.banner {
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+	color: white;
+}
+.blue-btn {
+	padding:10px 10px;
+	font-size: 20px;
+	border-radius: 5%;
+	background-color: #1A48E3;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	transition: .3s;
+}
+.blue-btn:hover {
+	background-color: #0D1EC6;
+	color: white;
+}
+.campuses {
+	width: 800px;
+	margin: auto;
+}
+.card {
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 200px;
+	text-align: center;
+	padding: 25px;
+	margin: 8px;
+}
+.card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px 0;
+  color: white;
+}
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .campuses {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .campuses {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .campuses {
+    width: 800px;
+  }
+}
+
+
+
+
